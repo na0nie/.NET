@@ -1,3 +1,3 @@
-# miscellaneous
+# .NET
 
-a bunch of miscellaneous code to organize later
+c#/.NET things

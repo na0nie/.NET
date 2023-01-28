@@ -460,20 +460,6 @@
             return id;
         }
 
-        //public void UpdateV3(FriendV3UpdateRequest model, int userId)
-        //{
-        //    string procName = "[dbo].[Friends_UpdateV3]";
-        //    _data.ExecuteNonQuery(procName,
-        //        inputParamMapper: delegate (SqlParameterCollection col)
-        //        {
-        //            AddCommonParamsV3(model, col, userId);
-        //            col.AddWithValue("@newSkill", MapSkillsToTable(model.Skills));
-
-        //            col.AddWithValue("@Id", model.Id);
-        //        },
-        //        returnParameters: null);
-        //}
-
         private DataTable MapSkillsToTable(List<string> skillsToMap)
         {
             DataTable dt = new DataTable();
